@@ -53,7 +53,7 @@ Red: target, Green: source, Blue: aligned
 
 ## Python Bindings
 
-This repository now includes Python bindings for `ndt_omp`, enabling its use in Python projects. The bindings are designed to be compatible with Open3D, addressing previous FLANN-related segmentation faults by defaulting to the `DIRECT1` search method, which bypasses FLANN conflicts.
+This repository now includes Python bindings for `ndt_omp`, enabling its use in Python projects.
 
 ### Installation
 To install the Python bindings, ensure you have the following dependencies:
