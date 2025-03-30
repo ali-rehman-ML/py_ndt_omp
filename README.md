@@ -64,7 +64,7 @@ To install the Python bindings, ensure you have the following dependencies:
 
 Clone the repository and install:
 ```bash
-git clone https://github.com/<your-username>/ndt_omp.git
+git clone https://github.com/ali-rehman-ML/py_ndt_omp.git
 cd ndt_omp
 sudo python3 setup.py install
 ```
@@ -104,7 +104,7 @@ print("Fitness Score:", fitness)
 ```
 
 #### Notes
-- **Open3D Compatibility**: Importing `open3d` before `ndt_omp` result in segmentaion fault if your open3d and pcl has different flann versions. You alos will not be able to use open3d vozel downsampling and SOR filtering if flann version is mis-matched.
+- **Open3D Compatibility**: Importing `open3d` before `ndt_omp` result in segmentaion fault if your open3d and pcl has different flann versions. You will also not be able to use open3d voxel downsampling and SOR filtering if flann version is mis-matched.
 
 
 ### Contributing
